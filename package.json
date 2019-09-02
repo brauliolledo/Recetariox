@@ -1,0 +1,22 @@
+{
+  "name": "recgen",
+  "version": "1.0.0",
+  "description": "Generador de recetas",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brauliolledo/Recetariox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brauliolledo/Recetariox/issues"
+  },
+  "homepage": "https://github.com/brauliolledo/Recetariox#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
