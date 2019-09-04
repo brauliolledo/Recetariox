@@ -1,4 +1,4 @@
-.navbar a {
+.navbar .itemNavegacion {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -9,7 +9,8 @@
     font-family: calibri;
 }
 
-.navbar a:hover {
+.navbar .itemNavegacion:hover {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
 }

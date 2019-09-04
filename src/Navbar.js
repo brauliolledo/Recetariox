@@ -1,15 +1,17 @@
 import React, { PureComponent } from "react";
+import { Link } from 'react-router-dom'
 import "./Navbar.css"
 
 export default class Navbar extends PureComponent {
     render() {
         return (
-        <div class="navbar">
-            <a href="index.html">Inicio</a>
-            <a href="how.html">¿Cómo funciona?</a>
-            <a href="download.html">Descarga</a>
-            <a href="contact.html">Contacto</a>
-        </div>
+            <div className="navbar">
+                <Link className="itemNavegacion" to="/">Inicio</Link>
+                <Link className="itemNavegacion" to="/como">¿Cómo funciona?</Link>
+                <Link className="itemNavegacion" to="/descarga">Descarga</Link>
+                <Link className="itemNavegacion" to="/contacto">Contacto</Link>
+
+            </div>
         );
     }
 }
