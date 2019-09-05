@@ -20,7 +20,6 @@ function App() {
           <Route exact path="/contacto" component={Contacto}></Route>
         </Switch>
       </BrowserRouter>
-
     </div>
   );
 }
