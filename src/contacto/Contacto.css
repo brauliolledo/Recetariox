@@ -1,5 +1,6 @@
 #contactoDiv {
-    height: 100vh;
+    height: 90vh;
+    
 }
 
 #formularioDiv {
@@ -7,5 +8,9 @@
 }
 
 #mensajeTextArea {
-    height: 200px;
+    min-height: 120px;
+}
+
+#infoContactoDiv
+{
 }
