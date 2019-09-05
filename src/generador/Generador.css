@@ -1,0 +1,36 @@
+#comidaBackground {
+    height: 75vh;
+    padding: 0;
+    margin: 0;
+    filter:grayscale(50%);
+}
+
+#videoContainerDiv
+{
+    padding: 0;
+    margin: 0;
+}
+
+video {
+    object-fit: cover;
+}
+
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#videoContainerTitulo {
+    color: white;
+}
