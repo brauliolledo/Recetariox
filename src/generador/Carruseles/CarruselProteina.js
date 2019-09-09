@@ -26,28 +26,28 @@ export class CarruselProteina extends Carrusel {
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                            <img class="img-fluid" src="/img/proteinas/vacuno.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                            <img class="img-fluid" src="/img/proteinas/pollo.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                            <img class="img-fluid" src="/img/proteinas/salmon.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                            <img class="img-fluid" src="/img/proteinas/atun.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
@@ -62,28 +62,28 @@ export class CarruselProteina extends Carrusel {
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                            <img class="img-fluid" src="/img/proteinas/lentejas.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                            <img class="img-fluid" src="/img/proteinas/porotos.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                            <img class="img-fluid" src="/img/proteinas/garbanzos.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                            <img class="img-fluid" src="/img/proteinas/huevo.png"
                                 alt="Card image cap" />
                         </div>
                     </div>
