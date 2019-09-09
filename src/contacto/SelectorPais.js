@@ -39,7 +39,7 @@ export class SelectorPais extends PureComponent {
 
     render() {
         return (
-            <input class="form-control" id="seleccionarPaisInput"></input>
+            <input class="form-control col-4" id="seleccionarPaisInput"></input>
         )
     }
 }
