@@ -55,7 +55,7 @@ export class FormularioContacto extends PureComponent {
                             </div>
 
                     <div class="row col-12 mt-2 text-left">
-                        <input class="form-control col-3" placeholder="Nombre" value={this.state.nombre}></input>
+                        <input class="form-control col-3" placeholder="Nombre"></input>
                         <input class="form-control col-3 ml-3 mr-3" placeholder="Correo electrónico" onChange={
                             this.handleCorreoChange
                         } value={this.state.correoElectronico}></input>
