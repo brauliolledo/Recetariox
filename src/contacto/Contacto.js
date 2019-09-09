@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import './Contacto.css'
+import { SelectorPais } from "./SelectorPais";
 
 export default class Contacto extends PureComponent {
     render() {
@@ -16,6 +17,7 @@ export default class Contacto extends PureComponent {
                         <span class="col-3"></span>
                         <input placeholder="Dirección email" class="form-control col-2"></input>
                         <input placeholder="Nombre completo" class="form-control col-2"></input>
+                        <SelectorPais/>
                         <button class="btn btn-light col-1">Enviar</button>
                     </div>
                 </div>
