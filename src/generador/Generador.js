@@ -7,6 +7,8 @@ import { Carrusel } from "./Carrusel";
 import { CarruselProteina } from "./Carruseles/CarruselProteina";
 import { CarruselVerdura } from "./Carruseles/CarruselVerdura";
 import { CarruselOtros } from "./Carruseles/CarruselOtros";
+import { DEFAULT_ECDH_CURVE } from "tls";
+import { Resultado } from "./Resultado/Resultado";
 
 export default class Generador extends PureComponent {
     componentDidMount() {
@@ -39,10 +41,16 @@ export default class Generador extends PureComponent {
             <br></br>
             <CarruselOtros/>
             
+            <br></br>
+            <br></br>
+            <div class="wrapper">
+                <button class="btn btn-light">Generar Receta!</button>
+            </div>
+
+
+            <Resultado/>
+
             </p>
-
-
-
                 );
             }
 }

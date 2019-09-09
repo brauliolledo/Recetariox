@@ -14,14 +14,22 @@
     max-width: 100%; } }
     
     .carousel-multi-item-2 .card img {
-    border-radius: 200px; 
+      border-radius: 50%; 
+
+  }
+
+  .carousel-multi-item-2 .card{
+    background-color:transparent; 
+
+  }
+
+  .carousel-multi-item-2 {  
+    border: 10px solid #f2f2f2;
+    border-radius: 10px; 
 
   }
 
 
-  .carousel-multi-item-2 {  border: 3px solid #ffffff;
-  }
-
-#slider{
-margin-left: 200px;
+.wrapper {
+  text-align: center;
 }
