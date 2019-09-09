@@ -3,7 +3,10 @@ import './Generador.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { Carousel } from "./Carousel";
+import { Carrusel } from "./Carrusel";
+import { CarruselProteina } from "./Carruseles/CarruselProteina";
+import { CarruselVerdura } from "./Carruseles/CarruselVerdura";
+import { CarruselOtros } from "./Carruseles/CarruselOtros";
 
 export default class Generador extends PureComponent {
     componentDidMount() {
@@ -30,7 +33,11 @@ export default class Generador extends PureComponent {
                 <h1>Seleccionar ingredientes</h1>
 
 
-            <Carousel/>
+            <CarruselProteina/>
+            <br></br>
+            <CarruselVerdura/>
+            <br></br>
+            <CarruselOtros/>
             
             </p>
 
