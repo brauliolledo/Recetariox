@@ -1,5 +1,9 @@
 import React, { PureComponent } from "react";
 import './Generador.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { Carousel } from "./Carousel";
 
 export default class Generador extends PureComponent {
     componentDidMount() {
@@ -19,11 +23,19 @@ export default class Generador extends PureComponent {
                             <div class="w-100 text-white">
                                 <h1 class="display-2">Generador de Recetas</h1>
                             </div>
-                        </div>                    
+                        </div>
                     </div>
                 </div>
 
+                <h1>Seleccionar ingredientes</h1>
+
+
+            <Carousel/>
+            
             </p>
-        );
-    }
+
+
+
+                );
+            }
 }
