@@ -19,42 +19,7 @@ export class CarruselOtros extends Carrusel{
         return(
 
             <Slider className="col-11" {...settings}>
-                <div class="carousel-multi-item-2">
-                    <br></br>
-                    <h3>Seleccionar Otros Ingredientes</h3>
-                    <br></br>
-
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
-                                alt="Card image cap" />
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
-                                alt="Card image cap" />
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
-                                alt="Card image cap" />
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
-                                alt="Card image cap" />
-                        </div>
-                    </div>
-
-                </div>
-
-
+                
                 <div class="carousel-multi-item-2">
                 <br></br>
                     <h3>Seleccionar Otros Ingredientes</h3>
@@ -62,29 +27,29 @@ export class CarruselOtros extends Carrusel{
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
-                                alt="Card image cap" />
+                            <img class="img-fluid" src="/img/otros/leche.png"
+                                />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
-                                alt="Card image cap" />
+                            <img class="img-fluid" src="/img/otros/mantequilla.png"
+                                />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
-                                alt="Card image cap" />
+                            <img class="img-fluid" src="/img/otros/miel.png"
+                               />
                         </div>
                     </div>
 
                     <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
-                                alt="Card image cap" />
+                            <img class="img-fluid" src="/img/otros/yogurt.png"
+                                />
                         </div>
                     </div>
                 </div>
